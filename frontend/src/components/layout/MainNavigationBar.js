@@ -5,13 +5,10 @@ import classes from './MainNavigationBar.module.css';
 const MainNavigation = () => {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Navigation Bar</div>
+      <div className={classes.logo}>BigOtterCodes</div>
       <ul>
         <li>
-          <Link to='/'>Main Page</Link>
-        </li>
-        <li>
-          <Link to='/next-page'>Next Page</Link>
+          <Link to='/'>Socials</Link>
         </li>
       </ul>
     </header>

@@ -1,0 +1,10 @@
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+.container img {
+    width:100vw;
+    height:40vh;
+    opacity: 0.9;   
+}

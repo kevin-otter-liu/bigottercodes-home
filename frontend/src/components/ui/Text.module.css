@@ -1,0 +1,23 @@
+.container {
+    display:flex;
+    flex-grow:1;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #73cdff;
+    margin: 0rem 1rem;
+    padding: 0rem 1rem;
+}
+
+.container h1 {
+    font-size:16;
+    color:white;
+    display:block;
+}
+
+.container h2 {
+    font-size:12;
+    color:white;
+    display:block;
+}
+

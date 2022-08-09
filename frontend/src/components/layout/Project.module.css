@@ -1,0 +1,20 @@
+.container {
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #4985a6;
+    border-color: #73cdff;
+    border-width: 5px;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
+    width: 95%;
+}
+.container a {
+    font-size: 20;
+    color: white;
+    text-decoration: none;
+}
+.container:hover {
+    background-color: #73cdff;
+}
