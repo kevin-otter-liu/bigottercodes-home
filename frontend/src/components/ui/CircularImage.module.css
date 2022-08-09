@@ -1,0 +1,12 @@
+.img {
+    height: 360px;
+    width: 360px;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: #73cdff;
+    margin: 1rem 1rem;
+}
+
+.img:hover{
+    opacity: 0.8;
+}

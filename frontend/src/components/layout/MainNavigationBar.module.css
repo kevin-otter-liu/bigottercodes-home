@@ -1,46 +1,47 @@
 .header {
-    width: 100%;
+    width: 100wh;
     height: 5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: #77002e;
-    padding: 0 10%;
+    justify-content: flex-start;
+    background-color: #3d81a6;
+    padding: 0 3%;
   }
   
   .logo {
     font-size: 2rem;
-    color: white;
+    color: #EAEAEA;
     font-weight: bold;
   }
   
   .header ul {
     list-style: none;
     margin: 0;
-    padding: 0;
     display: flex;
-    align-items: baseline;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
   }
   
   .header li {
-    margin-left: 3rem;
+    padding-left: 3rem;
   }
   
   .header a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #fcb8d2;
+    color: #EAEAEA;
   }
   
   .header a:hover,
   .header a:active,
   .header a.active {
-    color: white;
+    color: #43bfde;
   }
   
   .badge {
-    background-color: #cc2062;
-    color: white;
+    background-color: #EAEAEA;
+    color: #EAEAEA;
     border-radius: 12px;
     padding: 0 1rem;
     margin-left: 0.5rem;
